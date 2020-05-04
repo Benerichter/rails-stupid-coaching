@@ -1,0 +1,48 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.text-box {
+  border-left: 5px solid #fc7e2f;
+  padding: 4px 8px;
+  margin-top: 8px;
+}
+
+.answer {
+  background-color: #c3edea;
+  color: black;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.textfield {
+  width: 400px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.submit {
+  background-color: #fc7e2f;
+  border: 1px solid #fc7e2f;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 16px 32px;
+  opacity: 0.7;
+}
+
+.submit:hover {
+  opacity: 1;
+}
+
+form {
+  text-align: center;
+  width: 600px;
+  margin: 100px auto;
+}
